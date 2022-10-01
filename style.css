@@ -1,0 +1,15 @@
+.photo{
+    width: 120px;
+    position: relative;
+}
+img{
+    width: 120px;
+}
+p{background-color: aqua;
+    display: none;
+    position: absolute;
+    top:10px}
+
+    .photo:hover p{
+        display: block;
+    }
